@@ -361,19 +361,24 @@ overlay__title-page{
     border: 0;
 }
 .sobre__descricao_single h2{
-    padding: 10px;
+    padding: 26px;
 }
 .sobre__descricao .p{
     display: block;
 }
 .sobre__descricao .p1{
-    margin-left: 28%;
+    
+    margin-left: 260px;
 }
 
 .proje{
-    margin-top: 70px;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 400px;
     background-color: #394e61;
 }
+
 @media screen and (max-width: 1200px){
     .form-container{
         text-align: center;
@@ -382,7 +387,27 @@ overlay__title-page{
         width: 60%;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 735px){
+    .proje{
+        margin-top: auto;
+        background-color: #394e61;
+    }
+
+    .carousel-caption h2{
+        font-size: medium;
+    }
+
+    .textos{
+        font-size: 70px;
+    }
+
+    .carousel-caption{
+        height: 5%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+
     .form-container{
         text-align: center;
         float: none;
@@ -392,6 +417,10 @@ overlay__title-page{
 }
 
 @media screen and (max-width: 1920px){
+    .proje{
+        margin-top: 20px;
+        background-color: #394e61;
+    }
     .sobre__descricao_single p{
         font-weight: bold;
         color: whitesmoke;
@@ -411,11 +440,36 @@ overlay__title-page{
 }
 
 @media screen and (max-width: 991px){
+    .sobre__descricao_single img{
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+        margin-left: 2%;
+        border-radius: 50%;
+    }
 
-   .sobre__descricao_single img{
+    .sobre__descricao .p1{
+        margin-left: 0;
+    }
+
+    .proje{
+        display: inline-block;
+        margin-top: 20px;
+        background-color: #394e61;
+    }
+
+    .carousel-caption h2{
+        font-size: medium;
+    }
+
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    
+    .sobre__descricao_single img{
         width: 100px;
         float: none;
-   }
+    }
 
     .sobre__descricao_single h2{
         margin-top: 20px;
@@ -436,8 +490,57 @@ overlay__title-page{
 }
 
 
-@media screen and (max-width: 599px){
+@media screen and (max-width: 667px){
+    .unica{
+        margin-top: 15px;
+    }
+    .frameworks{
+        margin-top: 20px;
+    }
+
+    .carousel-caption h2{
+        font-size: small;
+    }
+
+    .carousel-caption p{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        height: 5%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .proje{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        margin-top: 20px;
+        background-color: #394e61;
+    }
     .logo{
         margin-top: 5px;
+    }
+}
+@media screen and (max-width: 320px){
+    .carousel-caption h2{
+        font-size: 10px;
+    }
+
+    .carousel-caption p{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        text-align: center;
+        margin-bottom: 90px;
+        margin-top: 2px;
+    }
+    .unica{
+        margin-top: 15px;
+    }
+    .frameworks{
+        margin-top: 20px;
     }
 }
