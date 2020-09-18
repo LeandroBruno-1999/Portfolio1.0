@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 .menu-desktop .selected{
     font-weight: bold;
 }
@@ -63,7 +66,7 @@ header, footer{
         display: none;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 768px){
     nav.menu-desktop{display: none;}
     nav.menu-mobile i{
         display: inline-block;
@@ -451,7 +454,9 @@ overlay__title-page{
         margin-left: 2%;
         border-radius: 50%;
     }
-
+    .nome{
+        text-align: center;
+    }
     .sobre__descricao .p1{
         margin-left: 0;
     }
@@ -505,7 +510,9 @@ overlay__title-page{
     .frameworks{
         margin-top: 20px;
     }
-
+    .nome{
+        text-align: center;
+    }
     .carousel-caption h2{
         font-size: small;
     }
@@ -542,7 +549,9 @@ overlay__title-page{
     .carousel-caption p{
         font-size: 10px;
     }
-
+    .nome{
+        text-align: center;
+    }
     .carousel-caption{
         text-align: center;
         margin-bottom: 90px;
